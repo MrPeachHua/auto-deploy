@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" modified="2024-03-07T10:04:34.949Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="6DlItC_67QtrLE7uxtly" version="24.0.2" type="github">
+  <diagram name="第 1 页" id="vLBx108U6ZYN2gxvI5Km">
+    <mxGraphModel dx="1405" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cOt8kc3H8RvpTorm--ag-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOt8kc3H8RvpTorm--ag-1" target="cOt8kc3H8RvpTorm--ag-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;git push&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOt8kc3H8RvpTorm--ag-4" target="cOt8kc3H8RvpTorm--ag-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#000000;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOt8kc3H8RvpTorm--ag-6" target="cOt8kc3H8RvpTorm--ag-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-10" value="调用 API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cOt8kc3H8RvpTorm--ag-9">
+          <mxGeometry x="-0.181" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;触发 webhook&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOt8kc3H8RvpTorm--ag-8" target="cOt8kc3H8RvpTorm--ag-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-8" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;自动化部署微服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="585" y="470" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cOt8kc3H8RvpTorm--ag-11" target="cOt8kc3H8RvpTorm--ag-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-14" value="返回响应&lt;div style=&quot;font-size: 12px;&quot;&gt;告知 Github 已收到 webhook 请求&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cOt8kc3H8RvpTorm--ag-13">
+          <mxGeometry x="0.145" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOt8kc3H8RvpTorm--ag-11" target="cOt8kc3H8RvpTorm--ag-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;处理接口请求&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="335" y="470" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOt8kc3H8RvpTorm--ag-15" target="cOt8kc3H8RvpTorm--ag-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-15" value="服务器开始 CI/CD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="85" y="470" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-17" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#FFFFFF;shape=mxgraph.azure.github_code;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="335" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-19" value="Github" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="404" y="335" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOt8kc3H8RvpTorm--ag-20" target="cOt8kc3H8RvpTorm--ag-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-20" value="读取、执行部署脚本" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="85" y="610" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOt8kc3H8RvpTorm--ag-22" target="cOt8kc3H8RvpTorm--ag-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-22" value="记录构建日志" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="335" y="610" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOt8kc3H8RvpTorm--ag-24" value="Email 推送构建结果" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="585" y="610" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
