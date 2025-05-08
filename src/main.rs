@@ -8,7 +8,7 @@ use std::io::Write;
 
 #[tokio::main]
 async fn main() {
-    let tcp_listen = tokio::net::TcpListener::bind("127.0.0.1:3000")
+    let tcp_listen = tokio::net::TcpListener::bind("127.0.0.1:80")
         .await
         .unwrap();
     let handler = || async { "Hello World 👋" };
